@@ -1,5 +1,5 @@
 {
-  "token": "your bot token",
+  "token": "BOT_TOKEN",
   "mailGuildId": "id of the modmail inbox server",
   "mainGuildId": "id of the main server where users will DM the bot",
   "logChannelId": "id of the channel on the inbox server where notifications of new logs etc. will be posted",
