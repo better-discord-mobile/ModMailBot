@@ -13,6 +13,7 @@
   "relaySmallAttachmentsAsAttachments": true,
   "typingProxy": true,
   "typingProxyReverse": true,
-  "pingOnBotMention": true
+  "pingOnBotMention": true,
+  "mentionRole": "here"
 }
 
