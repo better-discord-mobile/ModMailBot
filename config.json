@@ -1,5 +1,5 @@
 {
-  "token": "NDc3MDk1MzM4NDg3MDU0MzM3.Dnv2FA.rOC9JvH6bNDrTcbOUIB1y7zff6M",
+  "token": process.env.BOT_TOKEN,
   "mailGuildId": "461570935988944896",
   "mainGuildId": "461570935988944896",
   "logChannelId": "489980610715320320",
