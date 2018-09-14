@@ -1,9 +1,18 @@
 {
   "token": "BOT_TOKEN",
-  "mailGuildId": "id of the modmail inbox server",
-  "mainGuildId": "id of the main server where users will DM the bot",
-  "logChannelId": "id of the channel on the inbox server where notifications of new logs etc. will be posted",
+  "mailGuildId": "MAIL_GUILD",
+  "mainGuildId": "MAIN_GUILD",
+  "logChannelId": "LOG_CHANNEL",
 
   "status": "Message me for help!",
-  "responseMessage": "Thank you for your message! Our mod team will reply to you here as soon as possible."
+  "responseMessage": "Thank you for your message! Our mod team will reply to you here as soon as possible.",
+  "alwaysReply": true,
+  "closeMessage": "Thanks for contacting us! We have closed this conversation. If you have any other query then message again when needed!",
+  "useNicknames": true,
+  "newThreadCategoryId": "THREAD_CATEGORY",
+  "relaySmallAttachmentsAsAttachments": true,
+  "typingProxy": true,
+  "typingProxyReverse": true,
+  "pingOnBotMention": true,
 }
+
