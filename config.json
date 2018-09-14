@@ -1,5 +1,4 @@
 {
-
   "mailGuildId": "461570935988944896",
   "mainGuildId": "461570935988944896",
   "logChannelId": "489980610715320320",
@@ -13,6 +12,6 @@
   "relaySmallAttachmentsAsAttachments": true,
   "typingProxy": true,
   "typingProxyReverse": true,
-  "pingOnBotMention": true,
+  "pingOnBotMention": true
 }
 
