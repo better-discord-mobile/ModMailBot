@@ -4,7 +4,7 @@
   "mainGuildId": "461570935988944896",
   "logChannelId": "489980610715320320",
 
-  "status": "Message me for help!",
+  "status": "DM me for help!",
   "responseMessage": "Thank you for your message! Our mod team will reply to you here as soon as possible.",
   "alwaysReply": true,
   "closeMessage": "Thanks for contacting us! We have closed this conversation. If you have any other query then message again when needed!",
@@ -13,7 +13,7 @@
   "relaySmallAttachmentsAsAttachments": true,
   "typingProxy": true,
   "typingProxyReverse": true,
-  "pingOnBotMention": true,
+  "pingOnBotMention": false,
   "mentionRole": "here"
 }
 
