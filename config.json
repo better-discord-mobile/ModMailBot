@@ -15,6 +15,6 @@
   "typingProxyReverse": true,
   "pingOnBotMention": true,
   "mentionRole": "here",
-  "port": "8891"
+  "ignoreAccidentalThreads": true
 }
 
