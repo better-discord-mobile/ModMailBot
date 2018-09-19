@@ -41,36 +41,36 @@ try {
 
 const defaultConfig = {
   "token": process.env.BOT_TOKEN,
-  "mailGuildId": null,
-  "mainGuildId": null,
-  "logChannelId": null,
+  "mailGuildId": "490878755779117066",
+  "mainGuildId": "461570935988944896",
+  "logChannelId": "490879800215470089",
 
   "prefix": "!",
   "snippetPrefix": "!!",
 
-  "status": "Message me for help!",
-  "responseMessage": "Thank you for your message! Our mod team will reply to you here as soon as possible.",
-  "closeMessage": null,
+  "status": "DM me for help!",
+  "responseMessage": "Thank you for your message! Our Staff team will reply to you here as soon as possible.",
+  "closeMessage": "Thanks for contacting us! We have closed this conversation. If you have any other query then message again when needed!",
 
-  "newThreadCategoryId": null,
+  "newThreadCategoryId": "490879668996669441",
   "mentionRole": "here",
   "pingOnBotMention": true,
 
   "inboxServerPermission": null,
-  "alwaysReply": false,
+  "alwaysReply": true,
   "alwaysReplyAnon": false,
-  "useNicknames": false,
-  "ignoreAccidentalThreads": false,
+  "useNicknames": true,
+  "ignoreAccidentalThreads": true,
   "threadTimestamps": false,
-  "allowMove": false,
-  "typingProxy": false,
-  "typingProxyReverse": false,
+  "allowMove": true,
+  "typingProxy": true,
+  "typingProxyReverse": true,
 
   "enableGreeting": false,
   "greetingMessage": null,
   "greetingAttachment": null,
 
-  "requiredAccountAge": null, // In hours
+  "requiredAccountAge": "1", // In hours
   "accountAgeDeniedMessage": "Your Discord account is not old enough to contact modmail.",
 
   "relaySmallAttachmentsAsAttachments": false,
