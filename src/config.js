@@ -41,18 +41,18 @@ try {
 
 const defaultConfig = {
   "token": process.env.BOT_TOKEN,
-  "mailGuildId": "490878755779117066",
-  "mainGuildId": "461570935988944896",
-  "logChannelId": "490879800215470089",
+  "mailGuildId": process.env.MAIL_GUILD,
+  "mainGuildId": process.env.MAIN_GUILD,
+  "logChannelId": process.env.LOG_CHANNEL,
 
   "prefix": "!",
   "snippetPrefix": "!!",
 
-  "status": "DM me for help!",
-  "responseMessage": "Thank you for your message! Our Staff team will reply to you here as soon as possible.",
-  "closeMessage": "Thanks for contacting us! We have closed this conversation. If you have any other query then message again when needed!",
+  "status": process.env.STATUS,
+  "responseMessage": process.env.RESPONSE_MSG,
+  "closeMessage": process.env.CLOSE_MSG,
 
-  "newThreadCategoryId": "490879668996669441",
+  "newThreadCategoryId": process.env.THREAD_CATEGORY,
   "mentionRole": "here",
   "pingOnBotMention": true,
 
@@ -70,10 +70,11 @@ const defaultConfig = {
   "greetingMessage": null,
   "greetingAttachment": null,
 
-  "requiredAccountAge": "1", // In hours
-  "accountAgeDeniedMessage": "Your Discord account is not old enough to contact modmail.",
+  "requiredAccountAge": process.env.REQUIRED_AGE, // In hours
+  "accountAgeDeniedMessage": process.env.AGE_DENIED_MSG,
 
-  "relaySmallAttachmentsAsAttachments": false,
+
+  "relaySmallAttachmentsAsAttachments": true,
   "smallAttachmentLimit": 1024 * 1024 * 2,
 
   "port": 8890,
