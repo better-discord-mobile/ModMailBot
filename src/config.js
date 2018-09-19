@@ -40,7 +40,7 @@ try {
 }
 
 const defaultConfig = {
-  "token": process.env.BOT_TOKEN ,
+  "token": process.env.BOT_TOKEN,
   "mailGuildId": null,
   "mainGuildId": null,
   "logChannelId": null,
