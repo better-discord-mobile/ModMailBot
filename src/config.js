@@ -41,18 +41,18 @@ try {
 
 const defaultConfig = {
   "token": process.env.BOT_TOKEN,
-  "mailGuildId": process.env.MAIL_GUILD,
-  "mainGuildId": process.env.MAIN_GUILD,
-  "logChannelId": process.env.LOG_CHANNEL,
+  "mailGuildId": "490878755779117066",
+  "mainGuildId": "453792677452972032",
+  "logChannelId": "492376029201956864",
 
   "prefix": "!",
   "snippetPrefix": "!!",
 
-  "status": process.env.STATUS,
-  "responseMessage": process.env.RESPONSE_MSG,
-  "closeMessage": process.env.CLOSE_MSG,
+  "status": "DM me for Help!",
+  "responseMessage": "Thank you for your message! Our Mods will reply to you here as soon as possible.",
+  "closeMessage": "Thanks for contacting us! We have closed this conversation. If you have any other query then message again when needed!",
 
-  "newThreadCategoryId": process.env.THREAD_CATEGORY,
+  "newThreadCategoryId": "492375902345363456",
   "mentionRole": "here",
   "pingOnBotMention": true,
 
@@ -70,8 +70,8 @@ const defaultConfig = {
   "greetingMessage": null,
   "greetingAttachment": null,
 
-  "requiredAccountAge": process.env.REQUIRED_AGE, // In hours
-  "accountAgeDeniedMessage": process.env.AGE_DENIED_MSG,
+  "requiredAccountAge": "1", // In hours
+  "accountAgeDeniedMessage": "You need to be atleast a member for one hour on the server to contact through ModMail!",
 
 
   "relaySmallAttachmentsAsAttachments": true,
